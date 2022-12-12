@@ -12,4 +12,6 @@ Node proxy server for APIs blocked by CORS
 
 OR
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+<a href="https://render.com/deploy?repo=https://github.com/mklilley/proxy">
+<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
+</a>
