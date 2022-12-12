@@ -1,4 +1,5 @@
- - type: web
+ services:
+  - type: web
     name: proxy
     env: node
     repo: https://github.com/mklilley/proxy
