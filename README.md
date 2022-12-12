@@ -9,7 +9,8 @@ Node proxy server for APIs blocked by CORS
 - Create a `.env` file with two variables
   - `PORT` - the port you want to proxy server to run on
   - `API` - the URL of the API you want to proxy
-
+- Run `npm start`
+- 
 OR
 
 <a href="https://render.com/deploy?repo=https://github.com/mklilley/proxy">
