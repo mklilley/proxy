@@ -1,0 +1,11 @@
+ - type: web
+    name: proxy
+    env: node
+    repo: https://github.com/mklilley/proxy
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 80
+      - key: API
+        sync: false
