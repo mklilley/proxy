@@ -1,7 +1,7 @@
  services:
   - type: web
     name: proxy
-    instance: free
+    instanceType: pro
     env: node
     repo: https://github.com/mklilley/proxy
     buildCommand: npm install
