@@ -10,9 +10,7 @@ const app = express();
 app.use(
     createProxyMiddleware({
         target: process.env.API,
-        logLevel: "debug",
         changeOrigin: true,
-        logger: console,
         onProxyRes: (proxyRes, req, res) => {
             proxyRes.headers["Access-Control-Allow-Origin"] = "*";
         },
