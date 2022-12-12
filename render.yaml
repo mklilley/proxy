@@ -3,6 +3,7 @@
     name: proxy
     plan: free
     env: node
+    region: frankfurt
     repo: https://github.com/mklilley/proxy
     buildCommand: npm install
     startCommand: npm start
