@@ -9,6 +9,6 @@
     startCommand: npm start
     envVars:
       - key: PORT
-        value: 80
+        value: 3000
       - key: API
         sync: false
